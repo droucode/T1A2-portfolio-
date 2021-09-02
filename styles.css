@@ -1,0 +1,325 @@
+
+
+/* across all .html */
+
+.container { 
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    
+}
+
+.nav-container {
+    display: flex;
+ 
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: auto;
+} 
+
+.nav-container a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-container a:hover {
+    color: rgb(252, 143, 80);
+}  
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+/* homepage  */
+
+.header-container {
+    display: flex;
+}
+
+
+#contact.container { 
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+h1 {
+    display:flex;
+    font-size: 200px; 
+    display: flex; 
+    justify-content: center; 
+    }
+
+.button-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+    font-size: 100px;
+    color: black;
+        
+
+    margin: auto;
+    margin-top:  10%;
+    margin-bottom: 10%;
+    width: 400px;
+    height: 400px;
+    border-radius: 500px;
+    padding: 0 20px;
+    padding-bottom: 20px;   
+       
+    transition: 1s;
+    animation-name: colors;
+    animation-duration: 5s;
+       
+    }
+    
+.button-css:hover {
+        font-size: 200px;   
+    }
+    
+@keyframes colors {
+    0% { 
+    background:rgb(252, 143, 80);
+    }
+    50% {
+        background: rgb(230, 17, 141)
+    }
+    100% {
+        background: yellow;
+    }
+}
+
+
+
+/* contact.html css */
+      
+h1 {
+ font-size: 20px;
+}
+
+.contact-container { 
+    display: flex;
+    flex-direction: column;
+
+    margin: -20%;
+    margin-right: -10%;
+    margin-bottom: -10%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+   
+ }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+
+}
+
+.github {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+.github:hover {
+    font-size: 30px;
+}
+.linkedin {  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+.linkedin:hover {
+    zoom: 30px;
+}
+
+/* aboutme.html */
+.headshot {
+    display: flex;
+    margin: auto;
+    width: 40%;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+.about-text{ 
+    
+    width: 100%;
+    text-align: center;
+    ;
+  
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* blog gallery  */
+
+#articles  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+       
+}
+
+#p1:hover {
+    font-size: 15px;
+    background-color: rgb(183, 226, 243);
+    border-radius: 10px;
+}
+
+#p2:hover {
+    font-size: 15px;
+    background-color: rgb(183, 226, 243);
+    border-radius: 10px;
+}
+
+#p3:hover {
+    font-size: 15px;
+    background-color: rgb(183, 226, 243);
+    border-radius: 10px;
+}
+
+#p4:hover {
+    font-size: 15px;
+    background-color: rgb(183, 226, 243);
+    border-radius: 10px;
+}
+
+#p5:hover {
+    font-size: 15px;
+    background-color: rgb(183, 226, 243);
+    border-radius: 10px;
+}
+
+
+#a1 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+#a2 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#a3 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#a4 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#a5 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+/* article images  */
+
+.image-1 {
+    display: flex;
+    margin:auto;
+    width: 60%;    
+}
+.image-2 {
+    display: flex;
+    margin:auto;
+    width: 60%;  
+}
+.image-3 {
+display: flex;
+    margin:auto;
+    width: 60%;  
+}
+.image-4 {
+    display: flex;
+    margin:auto;
+    width: 60%;  
+}
+.image-5 { 
+    display: flex;
+    margin:auto;
+    width: 60%;  
+}
+
+
+.blog-gallery-button {
+    display: flex;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white;
+    font-size: 10px;
+    transition: 1s;
+    animation-duration: 2s;
+}
+
+.blog-gallery-button:hover {
+    font-size: 15px;
+    color: lightskyblue
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media only screen and (max-width:768px) {
+.container,
+.button-css
+{width:100px
+}
+.button-css{height: 100px
+}
+}
