@@ -11,6 +11,7 @@
     
 }
 
+
 .nav-container {
     display: flex;
  
@@ -135,37 +136,83 @@ h1 {
 
 /* contact.html css */
       
-.contact-container { 
+.main {
+display: flex;
+align-items: center;
+align-content: center;
+margin: 1rem auto;
+width:90%;
+max-width: 100px;
 
+}
+
+select, option, input, label, button {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    color:rgb(128, 206, 236);
+
+}
+.form-box {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right:30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#form-box {
-    text-align: center;
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 
- #form-box input[type=text] {
-    width: 20em;  height: 7em;
-    
-    
+.form-box label {
+ display: none;
 }
- 
+
+.form-box input, 
+.form-box select,
+.form-box textarea
+{
+    flex-basis:50%;
+}
+
+
+@media all and (min-width: 600px) {
+    .form-box  {
+        flex-direction: row;
+    }
+    .form-box label {
+        flex-basis: 9rem;
+    }
+.form-box input, 
+.form-box select, 
+.form-box textarea,
+.form-box a
+ {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.form-box button {
+    margin-left: 9rem;
+
+}
+}
 
 /* contact links  */
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+ .email {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
 .github {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
 }
 .github:hover {
     cursor: pointer;
     background-color: white;
-    border-radius: 50%;
+    
 }
 .linkedin {  
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
@@ -177,9 +224,12 @@ h1 {
 }
 
 
-
-
 /* aboutme.html */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .headshot {
     display: flex;
     margin: auto;
@@ -197,16 +247,14 @@ h1 {
   
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-#resume-link {
+
+.resume-link {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 
 }
 
-#text {
+.text {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
