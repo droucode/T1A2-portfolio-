@@ -11,7 +11,6 @@
     
 }
 
-
 .nav-container {
     display: flex;
  
@@ -39,7 +38,6 @@
 
 }  
 
-
 .footer {
     display: flex;
     justify-content: space-around;
@@ -62,8 +60,6 @@ h2 {
 
 /* homepage .html  */
 
-
-/* header container  */
 .header-container {
     display: flex;
 }
@@ -226,7 +222,7 @@ font-size: 12px;
 }
 
 .text {
-    font-size: 15px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -374,11 +370,13 @@ display: flex;
 
 
 @media all and (min-width: 600px) {
+
     .form-box,
     .conatainer
     {
         flex-direction: row;
     }
+
     .form-box label {
         flex-basis: 9rem;
     }
@@ -387,7 +385,6 @@ display: flex;
 .form-box textarea,
 .form-box a,
 .container
-
  {
     flex-basis: 0;
     flex-grow: 1;
@@ -395,6 +392,41 @@ display: flex;
 }
 .form-box button {
     margin-left: 9rem;
-
 }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+    .nav-container,
+    .container,
+    .button-css
+    {
+       
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        flex-basis: 9rem;
+    }  
+    img{
+
+        max-width:100%;
+    }
+
+   p
+   {
+       max-width:100%;
+       padding:20px;
+   }
+        
+   .text1,
+   .text2,
+   .text3,
+   .text4,
+   .text5
+   {
+
+   width: 100%;
+   flex-direction: column;
+
+   }
 }
