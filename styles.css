@@ -136,20 +136,11 @@ h1 {
 
 /* contact.html css */
       
-.main {
-display: flex;
-align-items: center;
-align-content: center;
-margin: 1rem auto;
-width:90%;
-max-width: 100px;
-
-}
-
 select, option, input, label, button {
     padding: 0.2rem;
     font-size: 1.2rem;
-    color:rgb(128, 206, 236);
+    color:black;
+
 
 }
 .form-box {
@@ -173,27 +164,7 @@ select, option, input, label, button {
 }
 
 
-@media all and (min-width: 600px) {
-    .form-box  {
-        flex-direction: row;
-    }
-    .form-box label {
-        flex-basis: 9rem;
-    }
-.form-box input, 
-.form-box select, 
-.form-box textarea,
-.form-box a
- {
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-.form-box button {
-    margin-left: 9rem;
 
-}
-}
 
 /* contact links  */
 
@@ -402,12 +373,28 @@ display: flex;
 }
 
 
-/* media */
-@media only screen and (max-width:768px) {
-.container,
-.button-css
-{width:100px
+@media all and (min-width: 600px) {
+    .form-box,
+    .conatainer
+    {
+        flex-direction: row;
+    }
+    .form-box label {
+        flex-basis: 9rem;
+    }
+.form-box input, 
+.form-box select, 
+.form-box textarea,
+.form-box a,
+.container
+
+ {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
-.button-css{height: 100px
+.form-box button {
+    margin-left: 9rem;
+
 }
 }
