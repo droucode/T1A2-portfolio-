@@ -2,8 +2,12 @@
 
 .container { 
     max-width: 100%;
+    height: auto;
     margin: 0 auto;
     padding: 4rem;
+    background-image:
+      url("lines.jpg");
+      background-size: 100%;
     
 }
 
@@ -84,8 +88,8 @@ h1 {
         
 
     margin: auto;
-    margin-top:  10%;
-    margin-bottom: 10%;
+    margin-top:  5%;
+    margin-bottom: 5%;
     width: 400px;
     height: 400px;
     border-radius: 500px;
@@ -215,18 +219,6 @@ font-size: 12px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* blog gallery  */
 
 h1 {
@@ -247,35 +239,35 @@ font-size: 20px;
 
 #p1:hover {
     font-size: 15px;
-    background-color: rgb(241, 245, 247);
+    background-color: white;
     border-radius: 10px;
     cursor: pointer;
 }
 
 #p2:hover {
     font-size: 15px;
-    background-color: rgb(241, 245, 247);
+    background-color: white;
     border-radius: 10px;
     cursor: pointer;
 }
 
 #p3:hover {
     font-size: 15px;
-    background-color:  rgb(241, 245, 247);
+    background-color:  white;
     border-radius: 10px;
     cursor: pointer;
 }
 
 #p4:hover {
     font-size: 15px;
-    background-color:  rgb(241, 245, 247);
+    background-color: white;
     border-radius: 10px;
     cursor: pointer;
 }
 
 #p5:hover {
     font-size: 15px;
-    background-color:  rgb(241, 245, 247);
+    background-color:  white;
     border-radius: 10px;
     cursor: pointer;
 }
