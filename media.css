@@ -16,8 +16,8 @@
 }
 /* contact page form @media */
 /* small devices, large phones  */
-@media all and (min-width: 600px) {
-
+@media all and (min-width: 600px) 
+{
     .form-box,
     .container
     {
@@ -63,8 +63,7 @@
         align-items: flex-end;
         bottom: 0%;
         width: 100%;
-        margin-top: 180px;
-        
+        margin-top: 180px;    
     }
 
     .nav-container,

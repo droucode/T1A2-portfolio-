@@ -63,7 +63,6 @@ body{
     justify-content: space-around;
     align-items: baseline;
     font-family: Arial, Helvetica, sans-serif;
-    
 } 
 
 /* header container */
@@ -146,7 +145,6 @@ h2 {
     }
 }
 
-
 /* contact.html css */
 /* contact form */
       
@@ -202,9 +200,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
-
 /* aboutme.html */
-
 /* headshot image positioning */
 .headshot {
     display: flex;
@@ -251,62 +247,50 @@ font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
 }
-
 #p2:hover {
     font-size: 15px;
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
 }
-
 #p3:hover {
     font-size: 15px;
     background-color:  white;
     border-radius: 10px;
     cursor: pointer;
 }
-
 #p4:hover {
     font-size: 15px;
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
 }
-
 #p5:hover {
     font-size: 15px;
     background-color:  white;
     border-radius: 10px;
     cursor: pointer;
 }
-
-
 #a1 {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
-
-
 }
-
 #a2 {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
 }
-
 #a3 {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
 }
-
 #a4 {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
 }
-
 #a5 {
     display: flex;
     margin-left: 200px;
