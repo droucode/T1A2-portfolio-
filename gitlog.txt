@@ -1,3 +1,21 @@
+commit 05ea1b26b79beaaa8134999b56b9a37ee85f90c4
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 23:31:12 2021 +1000
+
+    renamed homepage.html to index.html for netlify deployment
+
+commit 6190fc0f8c6f7e7ff33ff17515f5c808398ea133
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 23:14:50 2021 +1000
+
+    SRI hash added to styles.css and media.css
+
+commit 3cef41f1d8f9e7e8eb6cf70a8826425e8981428f
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 21:55:06 2021 +1000
+
+    updated gitlog.txt
+
 commit ea08e1fc00812e6b497a5f8b9430f00c2bf0c197
 Author: droucode <iamdrou@gmail.com>
 Date:   Sat Sep 4 21:38:06 2021 +1000
