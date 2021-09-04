@@ -32,7 +32,7 @@ This is a detailed flowchart of my portfolio and it's components.
 Below are screenshots of my portfolio website, showing a responsive navigation bar. 
 
 ![homepage image](homepage.png)
-![about image](about-page.png)
+![about image]()
 ![blog gallery image](blog-gallery.png)
 ![article 1 image](article1.png)
 ![article 2 image](article2.png)
@@ -41,8 +41,8 @@ Below are screenshots of my portfolio website, showing a responsive navigation b
 ![article 5 image](article5.png)
 ![contact-page image](contact-page.png)
 ![ipad homepage image](home-ipad.png)
-![ipad blog gallery image](blog-gallery-ipad.png)
+![ipad blog gallery image]()
 ![iphone homepage image](home-iphone.png)
-![iphone blog gallery image](blog-gallery-iphone.png)
+![iphone blog gallery image]()
 
 
