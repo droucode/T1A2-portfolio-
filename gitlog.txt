@@ -1,3 +1,70 @@
+commit c5e878b9727a53be2f3745c7e9bdb2a282e9270b
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 02:18:40 2021 +1000
+
+    final README.md, links to web and gitub added
+
+commit d453282317ad718d1f9f56b441fdaafd976deb06
+Merge: 02d0612 3888462
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 02:17:30 2021 +1000
+
+    Merge branch 'main' of github.com:droucode/T1A2-portfolio-
+
+commit 02d0612d392c0f4f759d19f00f8749a2711267f1
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 02:17:03 2021 +1000
+
+    inal README.md, links to web and gitub added
+
+commit 3888462fe25a98cb69dbba2f6523d0d131444b95
+Author: Amy Droungas <88969514+droucode@users.noreply.github.com>
+Date:   Sun Sep 5 02:06:40 2021 +1000
+
+    Update CNAME
+
+commit 5e276ec0296a1c2d8c753c94291414a979cc9a19
+Author: Amy Droungas <88969514+droucode@users.noreply.github.com>
+Date:   Sun Sep 5 02:05:49 2021 +1000
+
+    Create CNAME
+
+commit abbef4d0ae0320a84725886026778da4d7c22e2f
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 01:57:11 2021 +1000
+
+    Added relative paths to README.md images
+
+commit f5b53eefa768d3e31117172a68a16aaec6d4042d
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 01:55:36 2021 +1000
+
+    renamed images for README.md
+
+commit 1d1218d0b366f8980b0e3ecb9919aff4155accd0
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 01:48:16 2021 +1000
+
+    README.md updated with screenshots
+
+commit 29c99ab299c709962319566999eba3d17b7b7f30
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 01:26:53 2021 +1000
+
+    added sitemap imaged to folder and linked to README.md
+
+commit e83a0b8f8668437451a87fd8b1c7d382af1b2b2d
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 01:21:43 2021 +1000
+
+    testing markdown on README.md
+
+commit 8d1f1c8d5d241023cf4a45fe6980a08f9722bc24
+Author: droucode <iamdrou@gmail.com>
+Date:   Sun Sep 5 00:00:16 2021 +1000
+
+    updated all links to index.html, added linkedin linkgitignore file created for .DS_Store
+
 commit 05ea1b26b79beaaa8134999b56b9a37ee85f90c4
 Author: droucode <iamdrou@gmail.com>
 Date:   Sat Sep 4 23:31:12 2021 +1000
