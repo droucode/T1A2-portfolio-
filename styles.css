@@ -408,8 +408,8 @@ display: flex;
         flex-basis: 9rem;
     }  
     img{
-
         max-width:100%;
+    
     }
 
    p
@@ -427,6 +427,53 @@ display: flex;
 
    width: 100%;
    flex-direction: column;
-
+   margin: auto;
+   position:absolute
+   }
+   .conatiner{
+    flex-direction: row;
+   }
+   p{
+    float:left;
+   }
+   #a1.text1{
+       margin-left: 40px;
+   }
+   .image-1{
+    width: fit-content;
+    padding-left: 10px;
+    margin-left: 20px;
+   }
+   #a2.text2{
+    margin-left: 40px;
+   }
+   .image-2{
+    width: fit-content;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+   #a3.text3{
+    margin-left: 60px;
+   }
+   .image-3{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
+   }
+   #a4.text4{
+    margin-left: 60px;
+   }
+   .image-4{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
+   }
+   #a5.text5{
+    margin-left: 60px;
+   }
+   .image-5{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
    }
 }
