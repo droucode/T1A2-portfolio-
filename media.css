@@ -1,0 +1,132 @@
+/* Responsive layouts */
+
+
+@media all and (max-height: 1024px ) {
+    
+    .container.about,
+    .container.blog  {
+        padding-top:10%;
+      
+    }   
+}
+
+/* conact page form @media */
+
+@media all and (min-width: 600px) {
+
+    .form-box,
+    .conatainer
+    {
+        flex-direction: row;
+    }
+
+    .form-box label {
+        flex-basis: 9rem;
+    }
+    .form-box input, 
+    .form-box select, 
+    .form-box textarea,
+    .form-box a,
+    .container
+ {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+    .form-box button {
+    margin-left: 9rem;
+}
+}
+
+
+/* iPhone @media */
+
+@media (max-width: 420px) {
+    #articles 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    .nav-container,
+    .container,
+    .button-css
+    {
+       
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    flex-basis: 9rem;
+    }  
+    img{
+        max-width:100%;
+    }
+
+   p
+   {
+    max-width:100%;
+    padding:20px;
+   }
+        
+   .text1,
+   .text2,
+   .text3,
+   .text4,
+   .text5
+   {
+
+   width: 100%;
+   flex-direction: column;
+   margin: auto;
+   position:absolute
+   }
+   .conatiner{
+    flex-direction: row;
+   }
+   p{
+    float:left;
+   }
+   #a1.text1{
+       margin-left: 40px;
+   }
+   .image-1{
+    width: fit-content;
+    padding-left: 10px;
+    margin-left: 20px;
+   }
+   #a2.text2{
+    margin-left: 40px;
+   }
+   .image-2{
+    width: fit-content;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+   #a3.text3{
+    margin-left: 60px;
+   }
+   .image-3{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
+   }
+   #a4.text4{
+    margin-left: 60px;
+   }
+   .image-4{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
+   }
+   #a5.text5{
+    margin-left: 60px;
+   }
+   .image-5{
+    width: fit-content;
+    margin-left: 40px;
+    padding-right: 10px;
+   }
+}
+}
