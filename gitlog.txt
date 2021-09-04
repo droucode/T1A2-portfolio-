@@ -1,3 +1,129 @@
+commit ea08e1fc00812e6b497a5f8b9430f00c2bf0c197
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 21:38:06 2021 +1000
+
+    updated semantic tags in .htmlfinal commit
+
+commit e919a657001e198d63e609b6500a742a3b6608f9
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 20:42:09 2021 +1000
+
+    sticky footer- css applied in media.css
+
+commit 4de1152085d80efdf10e6985807dadff786f7592
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 20:21:43 2021 +1000
+
+    updated comments on .html .css .media files
+
+commit cfbb19fa9fbddfe568c51a800419a932f935b42a
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 19:00:46 2021 +1000
+
+    sweep through of html pages, indentations and semantic tags
+
+commit 5f2333d70fd38596b8b734c57c6646d185b5c983
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 18:14:32 2021 +1000
+
+    responsive updates to headshot and blog page (mobile)
+
+commit b7646d5fd4e315415f03931825903ac4869cd39a
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 17:06:19 2021 +1000
+
+    duplicate header-container removed
+
+commit 052565af81d9d7d5217f0971894ef085d9704c53
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 16:56:26 2021 +1000
+
+    footer included on all article.html contact, about and blog.html
+
+commit 10dc755f9edbe9381aa55296185b83fbae0f7350
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 16:45:52 2021 +1000
+
+    formatting and accessibility across all .html
+
+commit d75e6d4f04d3f89cfca5dfc3a52ee5c9e689fc3a
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 14:34:55 2021 +1000
+
+     final ammendments resume, new pdf added, linked and styled in stylesheet
+
+commit 10ac1674ce52b714da156bbf2ba661e559dac2d4
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 14:07:23 2021 +1000
+
+     media.css style sheet added and linked to all html. mobile responsive improvments
+
+commit c2e8e43145da2bfb91b830aad20bf084da7fb63c
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 11:14:06 2021 +1000
+
+    update background-image
+
+commit 5846ad438682e383e4785debeeec72e38111b934
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 10:44:37 2021 +1000
+
+    styles.css modified, all article.html are now mobile responsive
+
+commit 8eb0a2473bdf925867555283855c73da016e0b0a
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 02:21:43 2021 +1000
+
+     all .html doc Validated(w3)
+
+commit e9d83789ca7636989a752c5513ba4f700cd8c7e8
+Author: droucode <iamdrou@gmail.com>
+Date:   Sat Sep 4 01:41:35 2021 +1000
+
+     all .html responsive to desktop + ipad, including nav. mobile partially responsive
+
+commit 0a9bcab3d69e0f53e8f214e6367c0e42229a136f
+Author: droucode <iamdrou@gmail.com>
+Date:   Fri Sep 3 22:09:43 2021 +1000
+
+    background, css, responsive update- desktop, ipad
+
+commit 18bd64bad24a9913a6510136ef225802dada59a8
+Author: droucode <iamdrou@gmail.com>
+Date:   Fri Sep 3 21:37:28 2021 +1000
+
+    Contact page responsive
+
+commit 5811417f7b4fc1323a3cbd6f2608d31facf2de4c
+Author: droucode <iamdrou@gmail.com>
+Date:   Fri Sep 3 16:30:36 2021 +1000
+
+    button link blog.html
+
+commit 56b20e525a17a53ec4db749797112a8451a3e87e
+Author: droucode <iamdrou@gmail.com>
+Date:   Fri Sep 3 16:20:24 2021 +1000
+
+    background img
+
+commit 832d7642a6c149a79f191f0ed2056c4eff432089
+Author: droucode <iamdrou@gmail.com>
+Date:   Fri Sep 3 15:27:07 2021 +1000
+
+    New CV.pdf, about me, contact, styles.cc updated
+
+commit 6c1a44024bfbacfa64f6ea87f54b9d7f06f50c0f
+Author: droucode <iamdrou@gmail.com>
+Date:   Thu Sep 2 22:52:39 2021 +1000
+
+    initial portfolio commit
+
+commit 7a56c7b0e332f25d98a846a7bfdee42f47d7ff03
+Author: droucode <iamdrou@gmail.com>
+Date:   Thu Sep 2 22:38:34 2021 +1000
+
+    Initial commit
+
 commit 0d331bc712d135a700f6cfb2add3fc4d5938ce9f
 Author: Amy Droungas <88969514+droucode@users.noreply.github.com>
 Date:   Thu Sep 2 22:26:19 2021 +1000
