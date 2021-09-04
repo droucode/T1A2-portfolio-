@@ -1,21 +1,23 @@
 /* Responsive layouts */
-
-
 @media all and (max-height: 1024px ) {
     
-    .container.about,
-    .container.blog  {
-        padding-top:10%;
-      
+    .container.about
+    {
+        padding-top:20%;
     }   
-}
-
+    .container.blog {
+        padding-top: 10%;
+    }
+    .container {
+        padding-top: 0;
+    }
+    }
 /* conact page form @media */
 
 @media all and (min-width: 600px) {
 
     .form-box,
-    .conatainer
+    .container
     {
         flex-direction: row;
     }
@@ -28,28 +30,33 @@
     .form-box textarea,
     .form-box a,
     .container
- {
+    {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
 
-}
+    }
     .form-box button {
     margin-left: 9rem;
-}
-}
-
+    }
+    }
 
 /* iPhone @media */
 
 @media (max-width: 420px) {
     #articles 
-{
+    {
     margin-left: 0;
     margin-right: 0;
-}
+    }
 
 @media (min-width: 0px) and (max-width: 700px) {
+
+    .container.blog {
+        padding-top: 100%;
+    }
+
+
     .nav-container,
     .container,
     .button-css
@@ -82,51 +89,43 @@
    margin: auto;
    position:absolute
    }
-   .conatiner{
+   .container{
     flex-direction: row;
    }
    p{
     float:left;
    }
-   #a1.text1{
+   #a1.text1,
+   #a2.text2
+   {
        margin-left: 40px;
    }
-   .image-1{
+   .image-1,
+   .image-2,
+   .image-3
+{
     width: fit-content;
     padding-left: 10px;
     margin-left: 20px;
    }
-   #a2.text2{
-    margin-left: 40px;
-   }
-   .image-2{
-    width: fit-content;
-    padding-left: 20px;
-    margin-left: 10px;
-}
-   #a3.text3{
+ 
+   #a3.text3,
+   #a4.text4,
+   #a5.text5
+   {
     margin-left: 60px;
    }
-   .image-3{
-    width: fit-content;
-    margin-left: 40px;
-    padding-right: 10px;
-   }
-   #a4.text4{
-    margin-left: 60px;
-   }
-   .image-4{
-    width: fit-content;
-    margin-left: 40px;
-    padding-right: 10px;
-   }
-   #a5.text5{
-    margin-left: 60px;
-   }
+   
+   .image-4,
    .image-5{
     width: fit-content;
     margin-left: 40px;
     padding-right: 10px;
+    
    }
+.headshot {
+    width: fit-content;
+    margin-left: 5px;
+}
 }
 }
