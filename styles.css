@@ -1,43 +1,47 @@
 /* across all .html */
 body{
     height:100vh;
-
 }
-
+/* main conatiner  */
 .container { 
     max-width: 100%;
     height: 90%;
     margin: 0 auto;
     padding: 4rem;
-    background-image:
-      url("art-background.jpg");
-      background-size: 100%;
-      display: flex;
-        justify-content: center;
-        flex-direction: column;
     
+/* bakcground image */
+    background-image: url("art-background.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
 }
+
+/* positioning */
 .container.blog,.container.about  {
     justify-content: start;
     position: relative;
     top:0;
 }
 
-
+/* form component */
 .container > form {
     align-self: center;
 }
+
+/* navigation bar container */
 .nav-container {
     display: flex;
- 
     justify-content: center;
-    background-color: white;
     overflow: hidden;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
     align-items: center;
     margin: auto;
 } 
 
+/* navigation bar link styling  */
 .nav-container a {
     display: flex;
     color: black;
@@ -46,14 +50,14 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
-
+/* navigation bar hover styling */
 .nav-container a:hover {
     color: black;
     background-color: rgb(183, 226, 243);
     transition: 2s;
 
 }  
-
+/* page footer  */
 .footer {
     display: flex;
     justify-content: space-around;
@@ -61,22 +65,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-
-/* Basic css for headings across html. */
-
-
-
-
-
-/* homepage .html  */
-
+/* header container */
 .header-container {
     display: flex;
 }
-
-
+/* main heading */
 h1 {
-
     display:flex;
     font-size: 20px; 
     display: flex; 
@@ -85,7 +79,6 @@ h1 {
     }
 
 h2 {
-
     display:flex;
     font-size: 10px; 
     display: flex; 
@@ -95,6 +88,7 @@ h2 {
 
 
 /* enter site name button  */
+/* positioning and styling */
 .button-css {
     display: flex;
     justify-content: center;
@@ -114,12 +108,12 @@ h2 {
     border-radius: 500px;
     padding: 0 20px;
     padding-bottom: 20px;   
-       
+    
+/* graphics/animation  */
     transition: 1s;
     animation-name: colors;
     animation-duration: 12s;
-    animation-iteration-count: infinite;
-       
+    animation-iteration-count: infinite;    
     }
     
 .button-css:hover {
@@ -153,13 +147,12 @@ h2 {
 
 
 /* contact.html css */
+/* contact form */
       
 select, option, input, label, button {
     padding: 0.2rem;
     font-size: 1.2rem;
     color:black;
-
-
 }
 .form-box {
     margin-top: 50px;
@@ -167,7 +160,6 @@ select, option, input, label, button {
     margin-right:30%;
     display: flex;
     flex-direction: column;
-
 }
 
 .form-box label {
@@ -180,7 +172,6 @@ select, option, input, label, button {
 {
     flex-basis:50%;
 }
-
 
 /* contact.html links graphics/animation  */
 
@@ -213,7 +204,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 /* aboutme.html */
 
-
+/* headshot image positioning */
 .headshot {
     display: flex;
     margin: auto;
@@ -223,13 +214,13 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 50%;
 }
 
-
+/* link styling */
 .resume {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 
 }
-
+/* about me text  */
 .text {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -238,21 +229,18 @@ font-size: 16px;
 .links a:hover { 
     background-color: rgb(183, 226, 243);
     cursor: pointer;
-
 }
-
-
 /* blog gallery  */
-
-
+/* article positioning */
 #articles  {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
+
+/*   font styling */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-       
+    font-size: 10px;     
 }
 
 /* article preview animations */
@@ -323,10 +311,6 @@ font-size: 16px;
     margin-left: 200px;
     margin-right: 200px;
 }
-
-
-
-
 /* article images  */
 
 .image-1 {
@@ -355,7 +339,6 @@ display: flex;
     width: 60%;  
 }
 
-
 /* back to gallery button on article.html pages */
 .blog-gallery-button {
     display: flex;
@@ -367,7 +350,7 @@ display: flex;
     animation-duration: 2s;
     cursor: pointer;
 }
-
+/* graphics/animation */
 .blog-gallery-button:hover {
     font-size: 15px;
     color: lightskyblue;

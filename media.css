@@ -1,4 +1,6 @@
-/* Responsive layouts */
+/* responsive layouts and breakpoints  */
+
+/* desktop */
 @media all and (max-height: 1024px ) {
     
     .container.about
@@ -11,9 +13,9 @@
     .container {
         padding-top: 0;
     }
-    }
-/* conact page form @media */
-
+}
+/* contact page form @media */
+/* small devices, large phones  */
 @media all and (min-width: 600px) {
 
     .form-box,
@@ -41,7 +43,7 @@
     }
     }
 
-/* iPhone @media */
+/* iPhone*/
 
 @media (max-width: 420px) {
     #articles 
@@ -50,7 +52,8 @@
     margin-right: 0;
     }
 
-@media (min-width: 0px) and (max-width: 700px) {
+    /* extra small device up tp medium device and tablet */
+@media (min-width: 0px) and (max-width: 768px) {
 
     .container.blog {
         padding-top: 100%;

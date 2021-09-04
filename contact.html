@@ -1,5 +1,8 @@
+<!-- <!DOCTYPE declaration -->
 <!DOCTYPE html>
+<!-- Setting language to English -->
 <html lang="en">
+    <!-- Container for metadata -->
     <head>
         <title>Contact</title>
         <meta charset="UTF-8">
@@ -8,8 +11,9 @@
         <meta name="description" content="Amy Droungas Portfolio">
         <link href="styles.css" rel="stylesheet">
     </head>
-
+<!-- Main content of the .html -->
     <body>
+        <!-- Header tag containing nested navbar -->
         <header class="header-conatiner">
             <nav class="nav-container">
                 <a href="homepage.html">Home</a>
@@ -19,9 +23,11 @@
                 <link href="media.css" rel="stylesheet">
             </nav>
         </header>
-
+<!-- container for section and article components. Class for styling -->
         <div class="container">
+            <!-- contact form -->
             <form name="my-form" action="info" method="get">
+                <!-- input box 1, professional links -->
                 <div class="form-box">
                     <div class="l-inks">
                         <a class="github" href="https://github.com/droucode"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"  alt="github icon"></a>
@@ -29,27 +35,30 @@
                         <a class="email" href="mailto:amydrou@icloud.com">email@icloud.com</a>
                     </div>
                 </div>
-
+                <!-- input box 2, name -->
                 <div class="form-box">
                     <label for="name">name</label>
                     <input type="text" id="name" placeholder="Your prefered name">
                 </div>
+                <!-- input box 3, email -->
 
                 <div class="form-box">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Email" required>
                 </div>
+                <!-- input box 4, link to portfolio -->
 
                 <div class="form-box">
                     <label for="portfoliolink">link your portfoliolink</label>
                     <input type="text" id="p-link" name="portfoliolink" placeholder="Link your portfolio" required>
                 </div>
-                
+                <!-- send form button  -->
                 <div class="form-box">
                     <button id="send">send</button>
                 </div>
             </form>
         </div>
+        <!-- footer, marks bottom of the page -->
         <div class="footer">
             <footer>&copy2021AD </footer>
         </div>
