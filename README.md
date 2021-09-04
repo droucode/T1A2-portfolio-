@@ -7,3 +7,7 @@
 - Screenshots
 - Target audience
 - Tech stack 
+
+### Sitemap 
+This is a detailed flowchart of my portfolio and it's components.
+![sitemap image](sitemap.png)
