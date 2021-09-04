@@ -1,5 +1,11 @@
 # T1A2-portfolio-
 
+#### You can visit my portfolio and GitHub repository by following the links. 
+[ad portfolio](https://amydrou-portfolio.netlify.app/index.html)
+
+[ad GiHub](https://github.com/droucode/T1A2-portfolio-)
+
+
 ## Table of contents 
 - Purpose
 - Functionality / features
@@ -8,7 +14,7 @@
 - Target audience
 - Tech stack 
 
-### Purpose 
+#### Purpose 
 The purpose of T1A2 is to use HTML and CSS to create a responsive web portfolio featuring 4 HTML and CSS components and 4 graphic and/or animation features to the corresponding. This web portfolio, for most is our first step into our professional portfolio as software engineers. 
 
 #### Functionality 
@@ -24,11 +30,11 @@ The contact page features a responsive form, which links to my GitHub and Linked
 
 Finally, there is a footer on each html page. 
 
-##### Sitemap 
+#### Sitemap 
 This is a detailed flowchart of my portfolio and it's components.
 ![sitemap image](sitemap.png)
 
-###### Screenshots 
+#### Screenshots 
 Below are screenshots of my portfolio website, showing a responsive navigation bar. 
 
 ![homepage image](homepage.png)
@@ -45,4 +51,12 @@ Below are screenshots of my portfolio website, showing a responsive navigation b
 ![iphone homepage image](home-iphone.png)
 ![iphone blog gallery image](blog-gallery-iphone.png)
 
+#### Target audience
+The target audience for this webpage are peers, team and prospective employers. 
 
+#### Tech stack
+The technology used to build this project includes:
+- HTML 
+- CSS
+- Netlifiy
+- GitHub pages
